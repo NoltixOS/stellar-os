@@ -43,10 +43,6 @@ set -eu
 # Script to install an Arch Linux system.
 #
 # Usage:
-# # loadkeys es
-# # curl https://raw.githubusercontent.com/picodotdev/alis/main/download.sh | bash
-# # vim alis.conf
-# # ./alis.sh
 
 function init_config() {
     local COMMONS_FILE="alis-commons.sh"
