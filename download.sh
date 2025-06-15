@@ -22,7 +22,6 @@ function warning() {
     echo -e "Mount points: ${PARTITION_MOUNT_POINTS[*]}."
     echo ""
 read -p "Press [Enter] to install scripts..."
-
 GITHUB_USER="picodotdev"
 BRANCH="main"
 HASH=""
