@@ -44,14 +44,6 @@ set -eu
 #
 # Usage:
 
-function init_config() {
-    local COMMONS_FILE="alis-commons.sh"
-
-    source "$COMMONS_FILE" #SC1090
-    source "$COMMONS_CONF_FILE"
-    source "$ALIS_CONF_FILE"
-}
-
 function sanitize_variables() {
     DEVICE=$(sanitize_variable "$DEVICE")
     PARTITION_MODE=$(sanitize_variable "$PARTITION_MODE")
