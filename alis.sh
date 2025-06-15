@@ -216,7 +216,8 @@ function check_variables() {
 }
 
 function warning() {
-    echo -e "${BLUE}Welcome to Arch Linux Install Script${NC}"
+    echo -e "${BLUE}Welcome to the stellarOS installation${NC}"
+        echo -e "${BLUE}this will patch Arch Linux to run stellarOS${NC}"
     echo ""
     echo -e "${RED}Warning"'!'"${NC}"
     echo -e "${RED}This script can delete all partitions of the persistent${NC}"
