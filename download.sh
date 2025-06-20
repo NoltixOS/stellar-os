@@ -22,10 +22,10 @@ function warning() {
     echo -e "Mount points: ${PARTITION_MOUNT_POINTS[*]}."
     echo ""
 read -p "Press [Enter] to install scripts..."
-GITHUB_USER="picodotdev"
+GITHUB_USER="NoltixOS"
 BRANCH="main"
 HASH=""
-ARTIFACT="alis-${BRANCH}"
+ARTIFACT="stellar-os-${BRANCH}"
 
 while getopts "b:h:u:" arg; do
   case ${arg} in
